@@ -1,0 +1,32 @@
+{
+  "name": "read-image",
+  "version": "0.1.0",
+  "description": "Read local images through a Qwen vision model using base64-encoded input.",
+  "author": {
+    "name": "36699"
+  },
+  "license": "MIT",
+  "keywords": [
+    "image",
+    "vision",
+    "qwen",
+    "base64",
+    "ocr",
+    "screenshot"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Read Image",
+    "shortDescription": "Read images with a Qwen vision model",
+    "longDescription": "Encodes a local image as base64 and sends it to a Qwen vision model, then returns the vision model's description or answer to the main Codex model.",
+    "developerName": "36699",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Read this image and tell me what it shows",
+      "Extract the text from this image",
+      "Describe this screenshot in detail"
+    ],
+    "brandColor": "#334155"
+  }
+}
